@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'myworld.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresq',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'member_db',
         'USER': 'postgres',
         'PASSWORD': '123456',

@@ -1,4 +1,5 @@
 FROM python:3.10.2-alpine3.15
+USER root
 # Install required packages
 # For psycopg2
 RUN apk update && \
